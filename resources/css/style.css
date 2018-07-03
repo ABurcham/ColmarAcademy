@@ -37,7 +37,7 @@ nav li {
 nav a {
   vertical-align: bottom;
   line-height: 1.6;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #4a4a4a;
 }
 
@@ -54,7 +54,7 @@ header .mobile {
   header .desktop {
     display: none;
   }
-  
+
   header .desktop-logo{
     display: none;
   }
@@ -85,4 +85,47 @@ header .mobile {
     line-height: 1.6;
     color: white;
   }
+}
+/*Banner Section*/
+.banner{
+  display:inline-flex;
+  position:relative;
+  text-align:center;
+  overflow: hidden;
+  top: 8rem;
+  background-color: lightgrey;
+}
+.image-container{
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.banner img{
+  max-width: 100%;
+  padding: 4rem 3rem;
+  display: block;
+  margin-right:0;
+}
+.banner .text{
+  display: inline-flex;
+  text-align:left;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 30%;
+}
+.banner h1{
+  font-size: 5rem;
+  padding-bottom: 3rem;
+}
+.banner p{
+  font-size: 3rem;
+  padding-bottom: 3rem;
+}
+.banner .button{
+  background-color: darkgrey;
+  font-size:3rem;
+  text-align: center;
+  padding: 1rem 0;
+  width:100%;
 }

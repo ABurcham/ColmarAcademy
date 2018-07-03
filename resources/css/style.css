@@ -1,0 +1,88 @@
+html{
+  font-size:8px;
+}
+
+/*Header Section*/
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+  height:8rem;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding:2rem 3rem;
+}
+
+header .logo {
+  flex: 1;
+  font-size: 3rem;
+}
+
+header .desktop-logo{
+  height:4rem;
+}
+
+header nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-left: 2rem;
+}
+
+nav a {
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 2rem;
+  color: #4a4a4a;
+}
+
+header .icon {
+  width: 1rem;
+  padding-left: .75rem;
+}
+
+header .mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 760px) {
+  header .desktop {
+    display: none;
+  }
+  
+  header .desktop-logo{
+    display: none;
+  }
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  header .mobile li {
+    padding: 0;
+  }
+
+  header .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+}

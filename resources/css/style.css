@@ -88,7 +88,7 @@ header .mobile {
 }
 /*Banner Section*/
 .banner{
-  display:inline-flex;
+  display:flex;
   position:relative;
   text-align:center;
   overflow: hidden;
@@ -100,6 +100,8 @@ header .mobile {
   height: 100%;
   margin: 0 auto;
   display: block;
+  margin-right: 3rem;
+  padding-right: 3rem;
 }
 .banner img{
   max-width: 100%;
@@ -108,17 +110,18 @@ header .mobile {
   margin-right:0;
 }
 .banner .text{
-  display: inline-flex;
+  display: block;
   text-align:left;
   margin: auto;
   flex-wrap: wrap;
-  width: 30%;
+  width: 40%;
+  padding-right: 3rem;
 }
 .banner h1{
   font-size: 5rem;
   padding-bottom: 3rem;
 }
-.banner p{
+.banner h2{
   font-size: 3rem;
   padding-bottom: 3rem;
 }
@@ -128,4 +131,80 @@ header .mobile {
   text-align: center;
   padding: 1rem 0;
   width:100%;
+}
+/*Supporting Section (Information & Events)*/
+.support{
+  display:inline-flex;
+  position:relative;
+  text-align:left;
+  overflow: hidden;
+  top: 8rem;
+}
+.support .image-container{
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  padding-right: 3rem;
+  margin-right: 3rem;
+}
+.support img{
+  max-width: 100%;
+  margin: 4rem 3rem;
+  display: block;
+  overflow: hidden;
+}
+.support h1{
+  font-size: 4rem;
+  padding-left: 3rem;
+}
+.support p{
+  padding: 3rem;
+  font-size: 2.5rem;
+}
+.support span{
+  padding: 3rem;
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+.events{
+  display: flex;
+  text-align:left;
+  margin: auto;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.events .sml-image-container{
+  width: 35%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.event{
+  display: flex;
+  border-bottom: 3px solid lightgrey;
+  border-left: 2px solid lightgrey;
+  margin-right: 3rem;
+}
+.events img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+.events .text{
+  display: block;
+  margin: auto;
+}
+.events h3{
+  font-size: 3.5rem;
+}
+.events p{
+  font-size:2.5rem;
+  font-weight: lighter;
+  padding: 1rem 0;
+}
+.events a{
+  font-size: 2rem;
+  color: blue;
 }

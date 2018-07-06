@@ -95,7 +95,7 @@ header .mobile {
   top: 8rem;
   background-color: lightgrey;
 }
-.image-container{
+.media-container{
   width: 60%;
   height: 100%;
   margin: 0 auto;
@@ -141,7 +141,7 @@ header .mobile {
   top: 8rem;
   padding-bottom: 4rem;
 }
-.support .image-container{
+.support .media-container{
   width: 60%;
   height: 100%;
   margin: 0 auto;
@@ -159,7 +159,7 @@ header .mobile {
   font-size: 4rem;
   padding-left: 3rem;
 }
-.support p{
+.support .media-container p{
   padding: 3rem;
   font-size: 2.5rem;
 }
@@ -168,47 +168,23 @@ header .mobile {
   padding-top: 4rem;
   font-size: 2rem;
 }
-.events{
-  display: flex;
-  text-align:left;
-  margin: auto;
-  flex-wrap: wrap;
-  width: 40%;
-  margin-bottom: 4rem;
+.support h3{
+  font-size: 3rem;
 }
-.events .sml-image-container{
-  width: 35%;
-  height: 100%;
-  display: block;
-  overflow: hidden;
-}
-
-.event{
-  display: flex;
-  border-bottom: 3px solid lightgrey;
+.support .box{
+  border-bottom: 2px solid lightgrey;
   border-left: 2px solid lightgrey;
-  margin-right: 3rem;
 }
-.events img{
-  max-width: 100%;
-  display: block;
-  height: auto;
+.support .boxes .sml-image-container{
+  padding:0rem;
 }
-.events .text{
-  display: block;
-  margin: auto;
+.support .boxes p{
+  font-size: 2.5rem;
+  padding:1rem 0;
 }
-.events h3{
-  font-size: 3.5rem;
-}
-.events p{
-  font-size:2.5rem;
-  font-weight: lighter;
-  padding: 1rem 0;
-}
-.events a{
-  font-size: 2rem;
+.support .boxes a{
   color: blue;
+  font-size: 2.5rem;
 }
 /*Courses Section*/
 .courses{
@@ -264,4 +240,66 @@ header .mobile {
 .course p{
   font-size:1.9rem;
   padding-bottom: 3rem;
+}
+/*Thesis Section*/
+.thesis{
+  display:block;
+}
+.thesis h2{
+  font-size: 4rem;
+  padding: 4rem 0;
+  margin: auto;
+  text-align: center;
+}
+.thesis .content{
+  display:flex;
+}
+.thesis .media-container{
+  max-width: 60%;
+  padding: 3rem;
+  padding-top: 0;
+  margin-right:0;
+}
+.thesis video{
+  max-width: 100%;
+  display: block;
+}
+.thesis .media-container h2{
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+.thesis h3{
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.thesis span,
+.thesis p{
+  font-size: 2rem;
+  padding-bottom: 4rem;
+}
+/*CSS for both box section in Thesis Section and Supporting Section*/
+.boxes{
+  max-width: 40%;
+  display: block;
+  flex-wrap: wrap;
+}
+.box{
+  display: flex;
+}
+.boxes .sml-image-container{
+  padding: 2rem;
+  margin-right: 2rem;
+  max-width: 35%;
+  height: auto;
+  overflow: hidden;
+}
+.boxes img{
+  width: 100%;
+  height: auto;
+}
+.box .text{
+  margin: auto;
+  margin-left:0;
+  max-width: 65%;
 }

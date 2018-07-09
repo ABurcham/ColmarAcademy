@@ -6,7 +6,7 @@ html{
 header {
   position: fixed;
   width: 100%;
-  background-color: white;
+  background-color: rgba(178,171,158,0.97);
   z-index: 2;
   height:8rem;
 }
@@ -20,20 +20,26 @@ header .content {
 header .logo {
   flex: 1;
   font-size: 3rem;
+  color: rgb(47, 92, 138);
+  font-weight: 200;
 }
-
+header .bold{
+  font-weight: 800;
+  letter-spacing: .1em;
+  color: rgba(0,0,0,1);
+}
 header .desktop-logo{
   height:4rem;
 }
-
 header nav ul {
   display: flex;
 }
-
 nav li {
   padding-left: 2rem;
 }
-
+nav a:hover{
+  color: rgb(47,92,138);
+}
 nav a {
   vertical-align: bottom;
   line-height: 1.6;
@@ -134,6 +140,7 @@ header .mobile {
 .banner h1{
   font-size: 5rem;
   padding-bottom: 3rem;
+  color: rgb(47,92,138);
 }
 .banner h2{
   font-size: 3rem;
@@ -155,6 +162,11 @@ header .mobile {
   padding: 1rem 0;
   width:100%;
   max-width: 90%;
+}
+.banner .button:hover{
+  color: rgb(255,239,211);
+  background-color: rgb(47,92,138);
+  transition: color 500ms linear 50ms, background-color 500ms linear;
 }
 @media only screen and (max-width:760px){
   .banner .button{
@@ -187,6 +199,7 @@ header .mobile {
 .support h1{
   font-size: 4rem;
   padding-left: 3rem;
+  color: rgb(47,92,138);
 }
 .support .media-container p{
   padding: 3rem;
@@ -250,8 +263,11 @@ header .mobile {
   padding:1rem 0;
 }
 .support .boxes a{
-  color: blue;
+  color: rgb(47,92,138);
   font-size: 2.5rem;
+}
+.support .boxes a:hover{
+  color:rgb(255,239,211);
 }
 /*Courses Section*/
 .courses{
@@ -259,7 +275,7 @@ header .mobile {
   position: relative;
   margin-top:4rem;
   padding-top: 4rem;
-  background-color: lightgrey;
+  background-color:lightgrey;
   justify-content: center;
 }
 .course-container{
@@ -275,12 +291,17 @@ header .mobile {
   text-align: center;
   justify-content: center;
   margin: auto;
+  color: rgb(47,92,138);
 }
 
 .course{
   margin-right: 4rem;
   margin-bottom: 4rem;
   background-color: white;
+}
+.course:hover{
+  background-color:rgb(178,171,158);
+  transition: background-color 300ms ease-in .1s;
 }
 .course .img-container{
   width:100%;
@@ -314,6 +335,10 @@ header .mobile {
     background-color: lightgrey;
     padding:0;
   }
+  .courses .course .txt:hover{
+    background-color: rgb(178,171,158);
+    transition: background-color 300ms ease-in-out;
+    }
   .course .txt h3{
     padding: 2rem 2rem;
     padding-bottom: 3rem;
@@ -346,6 +371,7 @@ header .mobile {
   padding: 4rem 0;
   margin: auto;
   text-align: center;
+  color: rgb(47,92,138);
 }
 .thesis .content{
   display:flex;
@@ -401,6 +427,10 @@ header .mobile {
 .box{
   display: flex;
 }
+.box:hover{
+  background-color: rgb(178,171,158);
+  transition: background-color 250ms linear .1s;
+}
 .boxes .sml-image-container{
   padding: 2rem;
   margin-right: 2rem;
@@ -424,6 +454,7 @@ footer .content{
   display: flex;
   justify-content: space-between;
   border-top: 2px solid lightgrey;
+  background-color: rgb(178,171,158);
 }
 footer span{
   font-size: 1.8rem;
@@ -433,6 +464,9 @@ footer nav ul{
   font-size: 1.8rem;
   justify-content: flex-end;
   display: flex;
+}
+footer nav li:hover{
+  color: rgb(47,92,138);
 }
 @media only screen and (max-width: 680px){
   footer .content{

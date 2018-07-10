@@ -22,6 +22,7 @@ header .logo {
   font-size: 3rem;
   color: rgb(47, 92, 138);
   font-weight: 200;
+  font-family:"playfair display","times new roman";
 }
 header .bold{
   font-weight: 800;
@@ -141,10 +142,13 @@ header .mobile {
   font-size: 5rem;
   padding-bottom: 3rem;
   color: rgb(47,92,138);
+  font-family: "Julius Sans One", Helvetica;
+  font-weight:700;
 }
 .banner h2{
   font-size: 3rem;
   padding-bottom: 3rem;
+  font-family: "Scope One", Helvetica;
 }
 @media only screen and (max-width:760px){
   .banner .text{
@@ -162,6 +166,7 @@ header .mobile {
   padding: 1rem 0;
   width:100%;
   max-width: 90%;
+  font-family:"Scope One", Helvetica;
 }
 .banner .button:hover{
   color: rgb(255,239,211);
@@ -200,18 +205,24 @@ header .mobile {
   font-size: 4rem;
   padding-left: 3rem;
   color: rgb(47,92,138);
+  font-family:"Julius Sans One", Helvetica;
+  font-weight:700;
 }
 .support .media-container p{
   padding: 3rem;
   font-size: 2.5rem;
+  font-family:"Scope One", Helvetica;
 }
 .support span{
   padding: 3rem;
   padding-top: 4rem;
   font-size: 2rem;
+  font-family:"Julius Sans One", Helvetica;
 }
 .support h3{
   font-size: 3rem;
+  font-family: "Scope One", Helvetica;
+  font-weight:700;
 }
 .mobile-jpg{
   display: none;
@@ -227,6 +238,7 @@ header .mobile {
   .support .text{
     margin: auto;
     padding:4rem 2rem;
+    font-family:"Scope One", Helvetica;
   }
   .support img{
     margin: 0;
@@ -261,6 +273,7 @@ header .mobile {
 .support .boxes p{
   font-size: 2.5rem;
   padding:1rem 0;
+  font-family: "Scope One", Helvetica;
 }
 .support .boxes a{
   color: rgb(47,92,138);
@@ -292,6 +305,7 @@ header .mobile {
   justify-content: center;
   margin: auto;
   color: rgb(47,92,138);
+  font-family: "Scope One", Helvetica;
 }
 
 .course{
@@ -316,6 +330,9 @@ header .mobile {
   .course h4,
   .course p{
     display: none;
+  }
+  .courses h2{
+    padding-top:2rem;
   }
   .courses{
     background-color: white;
@@ -352,6 +369,7 @@ header .mobile {
 .course h3{
   font-size: 3rem;
   padding: 2rem 0;
+  font-family: "Julius Sans One", Helvetica;
 }
 .course h4{
   font-size: 2rem;
@@ -372,6 +390,7 @@ header .mobile {
   margin: auto;
   text-align: center;
   color: rgb(47,92,138);
+  font-family: "Julius Sans One", Helvetica;
 }
 .thesis .content{
   display:flex;
@@ -394,11 +413,13 @@ header .mobile {
 .thesis h3{
   font-size: 3rem;
   padding-bottom: 1rem;
+  font-family:"Julius Sans One", Helvetica;
 }
 .thesis span,
 .thesis p{
   font-size: 2rem;
   padding-bottom: 4rem;
+  font-family: "Scope One", Helvetica;
 }
 @media only screen and (max-width:680px){
   .thesis .media-container{
@@ -455,6 +476,7 @@ footer .content{
   justify-content: space-between;
   border-top: 2px solid lightgrey;
   background-color: rgb(178,171,158);
+  font-family:"playfair display", "times new roman";
 }
 footer span{
   font-size: 1.8rem;
